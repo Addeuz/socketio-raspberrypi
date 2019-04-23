@@ -1,0 +1,30 @@
+{
+  "name": "socketio-raspberrypi",
+  "version": "1.0.0",
+  "description": "A socket.io application to connect clients to a nodejs server via websockets",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Addeuz/socketio-raspberrypi.git"
+  },
+  "keywords": [
+    "heroku",
+    "socketio",
+    "websocket"
+  ],
+  "author": "addeuz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Addeuz/socketio-raspberrypi/issues"
+  },
+  "homepage": "https://github.com/Addeuz/socketio-raspberrypi#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "http": "0.0.0",
+    "onoff": "^4.1.1",
+    "socket.io": "^2.2.0"
+  }
+}
